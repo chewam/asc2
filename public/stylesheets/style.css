@@ -1,0 +1,47 @@
+body {
+    background: url(http://www.colorhexa.com/static/i/linen.png) repeat scroll 0 0 transparent;
+}
+
+h1 {
+    line-height: 1;
+    font-size: 56px;
+}
+
+.banner .title {
+    color: white;
+    position: absolute;
+    padding: 0 0 0 20px;
+}
+
+.banner img {
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.banner .title .lead {
+    font-size: 18px;
+}
+
+.social {
+    margin-top: 5px;
+}
+
+.bloc {
+    padding: 10px;
+    margin: 10px 10px 30px;
+    background: #fbfbfb;
+    border: 1px solid white;
+    box-shadow: 0 0 0 10px rgba(150, 150, 150, 0.1), 0 1px 3px rgba(25, 25, 25, 0.3), 0 10px 15px rgba(200, 200, 200, 0.1) inset;
+}
+
+.bloc .page-header {
+    margin: 0 0 30px;
+}
+
+.doodle {
+    width: 180px;
+    display: block;
+    margin: 60px auto 0;
+    font-size: 56px;
+}

@@ -1,0 +1,33 @@
+doctype 5
+html
+    head
+        title ASC II Volley-Ball
+        link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+
+        div.container
+            div.banner
+                div.title
+                    h1 ASC II Volley-Ball
+                    p.lead Association Sportive et Culturelle du 2ème arrondissement
+                img(src="/images/banner.png", width="938px")
+
+            div.social.pull-right
+                a.twitter-share-button(href="https://twitter.com/share", data-lang="fr", data-count="none") Tweeter
+                | &nbsp;
+                a!='<g:plusone size="medium" annotation="none"></g:plusone>'
+
+        block content
+
+        script(type="text/javascript")
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+        script(type="text/javascript")
+            window.___gcfg = {lang: 'fr'};
+
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();

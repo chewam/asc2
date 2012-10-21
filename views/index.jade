@@ -1,0 +1,37 @@
+extends layout
+
+block content
+
+    div.container
+        div.bloc
+            h2.page-header A propos d'ASC II
+            include intro
+        div.bloc
+            h2.page-header Nous contacter
+            p Pour obtenir des informations complémentaires concernant l'association, vous pouvez nous contacter par mail à l'adresse suivante:
+            p
+                i.icon-envelope
+                |&nbsp;
+                a(href="mailto:contact@asc2.fr") contact@asc2.fr
+        div.bloc
+            h2.page-header Les entrainements
+            p Les entrainements ont lieu chaque Vendredi à 21H, sauf durant les vacances scolaires, à l'adresse suivante:
+            br
+            div.row-fluid
+                div.span6
+                    address
+                        strong ASC II Volley-Ball
+                        br
+                        br
+                        | Espace Jean Dame
+                        br
+                        | 17 Rue Léopold Bellan, Paris 75003
+
+                    a.doodle.btn.btn-primary.btn-large(href="http://doodle.com/zqvspf72twnu3par", target="_blank") Doodle
+
+                div.span6
+                    iframe(width="425", height="350", frameborder="0", scrolling="no", marginheight="0", marginwidth="0", src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Espace+Jean+Dame,+Rue+L%C3%A9opold+Bellan,+Paris&amp;aq=0&amp;oq=espace+jean+dame&amp;sll=48.888457,2.388226&amp;sspn=0.273601,0.614548&amp;t=m&amp;ie=UTF8&amp;hq=Espace+Jean+Dame,&amp;hnear=Rue+L%C3%A9opold+Bellan,+75002+Paris,+%C3%8Ele-de-France&amp;ll=48.866567,2.345223&amp;spn=0.006295,0.006295&amp;output=embed")
+                    br
+                    small
+                        a(target="_blank", href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=Espace+Jean+Dame,+Rue+L%C3%A9opold+Bellan,+Paris&amp;aq=0&amp;oq=espace+jean+dame&amp;sll=48.888457,2.388226&amp;sspn=0.273601,0.614548&amp;t=m&amp;ie=UTF8&amp;hq=Espace+Jean+Dame,&amp;hnear=Rue+L%C3%A9opold+Bellan,+75002+Paris,+%C3%8Ele-de-France&amp;ll=48.866567,2.345223&amp;spn=0.006295,0.006295", style="color:#0000FF;text-align:left") Agrandir le plan
+
