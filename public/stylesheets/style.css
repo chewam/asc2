@@ -24,7 +24,15 @@ h1 {
 }
 
 .social {
+    height: 25px;
     margin-top: 5px;
+}
+
+.social .btn {
+    padding: 1px 9px;
+    top: -6px;
+    margin-right: 4px;
+    position: relative;
 }
 
 .bloc {
